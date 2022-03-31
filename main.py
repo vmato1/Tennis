@@ -5,6 +5,8 @@ WIDTH = 800
 HEIGHT = 600
 BACKGROUND = (0, 0, 0)
 
+# beginning of the Ball class
+
 class Ball:
     def __init__(self):
         self.image = pygame.image.load("small_tennis.png")
